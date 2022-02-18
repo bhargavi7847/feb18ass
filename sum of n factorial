@@ -1,0 +1,19 @@
+def factorial(num):
+    fact=1
+    while(num>0):
+        fact=fact*num
+        num=num-1
+    return(fact)
+n=int(input('enter value of n:'))
+sum=0
+for a in range(1,n+1):
+    sum=sum+factorial(a)
+    print("sum of factorials:",sum)
+
+Output:
+enter value of n:5
+sum of factorials: 1
+sum of factorials: 3
+sum of factorials: 9
+sum of factorials: 33
+sum of factorials: 153
